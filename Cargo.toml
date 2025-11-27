@@ -1,6 +1,6 @@
 [package]
 name = "gitlab-safe-push"
-version = "0.1.0"
+version = "0.2.0"
 edition = "2021"
 description = "Check GitLab pipelines before pushing to prevent breaking CI/CD"
 license = "MIT"
@@ -21,3 +21,4 @@ dirs = "5.0"
 url = "2.4"
 regex = "1.7"
 urlencoding = "2.1"
+chrono = { version = "0.4", features = ["serde"] }
